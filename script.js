@@ -1,6 +1,5 @@
 
 let saludo = Number(prompt("Bienvenido a Teho Guitar Store. ¿Desea comprar una guitarra? \n 1. Sí \n 2. No"))
-
 do {
     if (saludo == 1) {
         let opcion = Number(prompt(" Tienes estas opciones: \n 1. Guitarra Gibson Les Paul \n 2. Guitarra Fender Stratocaster \n 3. Guitarra Ephipone SG \n 4. No me gustan. Ya no deseo comprar"))
@@ -15,7 +14,7 @@ do {
             break
         } else {
             alert("Ingrese una opción correcta")
-        }
+        } 
             if (opcion == 1 || 2 || 3 ) {
                 let paga = Number(prompt("¿Desea pagar? \n 1. Sí \n 2. No "))
                 if (paga == 1) {
@@ -32,7 +31,7 @@ do {
         alert ("Gracias por su visita")
     } else {
         alert("Ingrese una opción correcta")
-    }
+    } 
 } while (saludo != 2)
 
 
