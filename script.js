@@ -24,10 +24,14 @@ do {
                 } else if (paga == 2) {
                     alert ("Gracias por su visita")
                     break
+                } else {
+                    alert("Ingrese una opción correcta")
                 }
             } 
     } else if (saludo == 2) {
         alert ("Gracias por su visita")
+    } else {
+        alert("Ingrese una opción correcta")
     }
 } while (saludo != 2)
 
